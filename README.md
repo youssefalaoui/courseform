@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.1.
 
+this is a simple form that detects: 
+- If course name (input field) is filled and contains at least 5 characters length
+- Checks if a select list value (Category select list) is chosen
+- Shows Active submit button only if all the above-mentioned conditions are fullfiled. 
+- At the end, it shows the form value - this is used for debugging for instance.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
